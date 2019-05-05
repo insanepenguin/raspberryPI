@@ -10,10 +10,11 @@ y = False
 while True:
     buttont1.when_pressed = ledyellow.on()
     buttont1.when_released = ledyellow.off()
-    buttont2.when_pressed = down.newmeth();
+    buttont2.when_pressed = ledyellow.on()
     buttont2.when_released = ledyellow.off()
-    buttonb1.when_pressed = down.newmeth();
+    buttonb1.when_pressed = ledyellow.on()
+    buttonb1.when_released = ledyellow.off()
     if(x == True and y == True):
         down.dwn()
-    else:
-        print("Cont")
+
+

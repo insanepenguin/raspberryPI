@@ -1,4 +1,4 @@
-import RPi.GPIO
+import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(17,GPIO.OUT)
 GPIO.setup(23,GPIO.IN)
