@@ -10,7 +10,6 @@ print("Humidity: %s %%rH" % humidity)
 # alternatives
 print(sense.humidity)
 
-sense = SenseHat()
 temp = sense.get_temperature()
 print("Temperature: %s C" % temp)
 
@@ -21,8 +20,8 @@ print(sense.temperature)
 temp = sense.get_temperature_from_humidity()
 print("Temperature: %s C" % temp)
 
-#temp = sense.get_temperature_from_pressure()
-#print("Temperature: %s C" % temp)
+temp = sense.get_temperature_from_pressure()
+print("Temperature: %s C" % temp)
 
-#pressure = sense.get_pressure()
-#print("Pressure: %s Millibars" % pressure)
+pressure = sense.get_pressure()
+print("Pressure: %s Millibars" % pressure)
