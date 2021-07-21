@@ -21,7 +21,7 @@ print(sense.temperature)
 temp = sense.get_temperature_from_humidity()
 print("Temperature: %s C" % temp)
 
-temp = sense.get_temperature_from_pressure()
+#temp = sense.get_temperature_from_pressure()
 print("Temperature: %s C" % temp)
 
 pressure = sense.get_pressure()
